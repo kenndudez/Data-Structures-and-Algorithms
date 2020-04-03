@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{79CBCE46-7F45-4977-B7A1-ADCF06066944}</ProjectGuid>
+    <ProjectGuid>{548A0744-0150-4CB6-A30B-6E3E4DAC70DD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Stacks</RootNamespace>
-    <AssemblyName>Stacks</AssemblyName>
+    <RootNamespace>DictionariesAndSets</RootNamespace>
+    <AssemblyName>DictionariesAndSets</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HanoiTower.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="OptimizedPriorityQueue">
-      <Version>4.2.0</Version>
-    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

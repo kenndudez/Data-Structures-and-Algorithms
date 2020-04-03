@@ -44,12 +44,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CallCenter.cs" />
+    <Compile Include="CallCenterPriority.cs" />
     <Compile Include="IncomingCalls.cs" />
+    <Compile Include="IncomingCallsPriority.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="OptimizedPriorityQueue">
+      <Version>4.2.0</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
